@@ -1,0 +1,41 @@
+.index_body {
+    background-color: #2B3D45;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index_container {
+    background-color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.index_login_btn {
+    background-color: #2B3D45;
+    color: white;
+}
+
+.index_login_btn:hover {
+    color: white;
+    background-color: #a952a3;
+}
+
+.index_side_image_container {
+    padding: 60px;
+}
+
+.index_side_image {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .index_side_image_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
